@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test tasks</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="comment">
+            <h2>Задача 1. Меню</h2>
+            <p>Ссылка на код: <a href="#">link</a></p>
+        </div>
+
+        <div class="menu">
+            <div class="item">Элемент меню</div>
+            <div class="item item_hover"> Элемент меню с наведением</div>
+            <div class="item">Еще один элемент у которого очень длинный текст</div>
+            <a class="item item_focus" href="#">Еще один элемент c выбором</a>
+            <div class="item item_click">Еще один элемент с кликом</div>
+            <!-- Не совсем понял как использовать
+            псевдоклассы для контроля состояний клика по элементам.
+            Лично я бы использовал js для обработки кликов, ну или тег a-->
+        </div>
+
+        <div class="comment">
+            <h2>Задача 2. Форма</h2>
+            <p>Ссылка на код: <a href="#">link</a></p>
+            <p>Сделал так, что email, пароль и подтверждение <br>
+             пароля нужно обязательно заполнить</p>
+        </div>
+
+        <form class="form">
+            <div class="form__title">Регистрация</div>
+            <hr class="hr">
+            <div class="form__content">
+                <div class="form__item">
+                    <div class="form__name">E-mail</div>
+                    <input type="email" name="email" placeholder="example@site.domain" required>
+                </div>
+                
+                <div class="form__half-group">
+                    <div class="form__item form__half">
+                        <div class="form__name">Пароль</div>
+                        <input type="password" name="pass" placeholder="password" required>
+                    </div>
+    
+                    <div class="form__item form__half">
+                        <div class="form__name">Повторите пароль</div>
+                        <input type="password" name="pass-confirm" placeholder="password" required>
+                    </div>
+                </div>
+
+                <div class="form__item">
+                    <div class="form__name">ФИО</div>
+                    <input type="text" name="fio" placeholder="Игорев Игорь Игоревич">
+                </div>
+
+                <div class="form__item">
+                    <div class="form__name">Возраст</div>
+                    <input class="form_input-half" type="number" name="age" placeholder="18">
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="form__buttons-group">
+                <button type="submit" class="form__button">Отправить</button>
+                <button type="reset" class="form__button form__button_white">Отмена</button>
+            </div>
+        </form>
+
+        <div class="comment">
+            <h2>Задача 3. Степпер</h2>
+            <p>Ссылка на код: <a href="#">link</a></p>
+            <p>Решение не идеальное, поэтому интересно <br>
+                 было бы узнать оптимальное</p>
+        </div>
+
+        <div class="stepper">
+            
+            <div class="stepper__item">
+                <p>Шаг 1</p>
+                <div class="d5"></div>
+            </div>
+            <div class="stepper__item active">
+                <div class="d6"></div>
+                <p>Шаг 2</p>
+                <div class="d5"></div>
+            </div>
+            <div class="stepper__item">
+                <div class="d6"></div>
+                <p>Шаг 3</p>
+            </div>
+        </div>
+
+        <div class="comment">
+            <h2>Задача 4. Печать треугольника</h2>
+            <p>Ссылка на код: <a href="https://jsfiddle.net/o31u6czn/2/">JsFiddle link</a></p>
+            <p>Решение сделано таким образом, что можно в <br>
+                агрумент написать высоту треугольника <br>
+                А по умолчанию она 5 (как в задании)
+            </p>
+            <img src="./assets/task4.png" alt="">
+        </div>
+
+        <div class="comment">
+            <h2>Задача 5. Работа с массивом</h2>
+            <p>Ссылка на код: <a href="https://jsfiddle.net/9fpvgt4d/">JsFiddle link</a></p>
+            <img src="./assets/task5.png" alt="">
+        </div>
+
+        <div class="comment">
+            <h2>Задача 6. Работа с коллекциями</h2>
+            <p>Ссылка на код: <a href="https://jsfiddle.net/L283xt6v/">JsFiddle link</a></p>
+            <p>
+                Решение далеко не идеальное, но <br>
+                вполне рабочее
+            </p>
+            <img src="./assets/task6.png" alt="">
+        </div>
+
+
+
+    </div>
+</body>
+</html>
