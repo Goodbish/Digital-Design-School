@@ -1,5 +1,12 @@
 # Входное задание в на поток “Frontend. Базовый”
 
+deploy:
+https://goodbish.github.io/Digital-Design-School/academy/
+
+По какой-то причине не могу получить ответ от сервера и получаю ошибку 403
+
+![Image with error](https://sun9-43.userapi.com/impg/pIQVUunGOhSvzEtOuGgzgX6QFkBEXjRnM9KM7g/eFPD6Dbyax4.jpg?size=712x653&quality=96&proxy=1&sign=3d8cdeccc8816a52dd75237cd8af3ec8&type=album)
+
 Необходимо сделать страницу со статичной версткой формы, представленной на макете:
 [https://www.figma.com/file/fgmrVXMjoofNw7eT5fUvvG/DS-Academy---frontend?node-id=0%3A1](Макет) 
 
@@ -22,6 +29,3 @@ __Выполнение следующих требований не обязат
 * JS-валидация, вместо html5
 * Ajax при отправке формы
 
-По какой-то причине не могу получить ответ от сервера и получаю ошибку 403
-
-![Image with error](https://sun9-43.userapi.com/impg/pIQVUunGOhSvzEtOuGgzgX6QFkBEXjRnM9KM7g/eFPD6Dbyax4.jpg?size=712x653&quality=96&proxy=1&sign=3d8cdeccc8816a52dd75237cd8af3ec8&type=album)
