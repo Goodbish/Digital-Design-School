@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="index.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="https://digital-spectr.com/ac/academy.php" method="post" class="form">
+            <p class="form__header">
+                Задать вопрос
+            </p>
+            <label for="full name">
+                <input type="text" name="name" placeholder="Фамилия Имя Отчество *" class="form__input form__full-name form__input_req">
+            </label>
+            <label for="phone number">
+                <input type="tel" name="phone" placeholder="Телефон *" class="form__input form__tel form__input_req">
+            </label>
+            <label for="email">
+                <input type="email" name="email" placeholder="Email" class="form__input ">
+            </label>
+            <button type="submit" class="form__button">
+                ОТПРАВИТЬ ЗАПРОС
+            </button>
+        </form>
+    </main>
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="main.js"></script>
+</body>
+</html>
